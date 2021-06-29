@@ -7,10 +7,24 @@ function hotandfresh_supports()
 
 function hotandfresh_register_assets()
 {
+
+  wp_enqueue_style(
+    'fontAwesome',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
+    array(),
+    '5.15.3'
+  );
+
   // Déclaration du fichier de style principal
   wp_enqueue_style(
     'main',
     get_template_directory_uri() . '/assets/css/main.css',
+    array(),
+  );
+
+  wp_enqueue_style(
+    'header',
+    get_template_directory_uri() . '/assets/css/header.css',
   );
 }
 
