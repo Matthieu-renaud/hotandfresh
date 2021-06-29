@@ -25,8 +25,8 @@
         </ul>
       </div>
       <div class="tel">
-        <ul>
-          <li><a href="tel:0950155894"></a></li>
+        <div class="numero"><a href="tel:0950155894">09 50 15 58 94</a></div>
+        <ul class="ul-tel">
           <li><a href=""><i class="fas fa-shopping-basket"></i></a></li>
           <li><a href=""><i class="far fa-user-circle"></i></a></li>
         </ul>
