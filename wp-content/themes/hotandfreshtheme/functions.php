@@ -26,6 +26,11 @@ function hotandfresh_register_assets()
     'header',
     get_template_directory_uri() . '/assets/css/header.css',
   );
+
+  wp_enqueue_style(
+    'front-page',
+    get_template_directory_uri() . '/assets/css/front-page.css',
+  );
 }
 
 function hotandfresh_document_title_parts($title)
