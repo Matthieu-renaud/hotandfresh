@@ -9,4 +9,27 @@
 </head>
 
 <body>
-  <div class="container">
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <a href="<?php echo home_url('/'); ?>">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-hotandfresh.png" alt="Logo Hot&Fresh" height="100px">
+        </a>  
+      </div>
+      <div class="lien">
+        <ul>
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Nos Formules</a></li>
+          <li><a href="">Notre Carte</a></li>
+          <li><a href="">Nos Valeurs</a></li>
+        </ul>
+      </div>
+      <div class="tel">
+        <ul>
+          <li><a href="tel:0950155894"></a></li>
+          <li><a href=""><i class="fas fa-shopping-basket"></i></a></li>
+          <li><a href=""><i class="far fa-user-circle"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
